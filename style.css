@@ -23,32 +23,44 @@ nav {
 }
 
 #text-input {
-    box-sizing: border-box;
-    max-width: 100%;
+    width: 50%;
     height: 10vh;
     display: block;
     padding: 1rem;
     margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #translate-btn {
-    margin: 2rem;
-    padding: 1rem;
+    
+    /* padding: 1rem;
     font-size: larger;
     background: yellow;
     border: 1px solid black;
+    margin: 0 auto; */
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5rem;
+    background: yellow;
+    -webkit-text-stroke-width: 0.5px;
+    border: none;
 }
 
 div {
-    margin-left: 2rem;
+    text-align: center;
+    margin: 2rem;
 }
 
 #text-output {
-    max-width: 100%;
+    width: 50%;
     height: 10vh;
     border: 1px solid black;
     padding: 1rem;
     margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
