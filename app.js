@@ -9,8 +9,8 @@ var Output = document.querySelector('#text-output');
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
-function errorHandler(){
-    console.log("error occured" ,console.error())
+function errorHandler(error){
+    console.log("error occured", error)
     alert("something wrong with server")
 }
 
